@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <title>Ashok College Of Pharmacy</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="course-header">
+        <nav>
+            <a href="#"><img src="images/logo3.png.jpeg" alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="course-text-box">
+            <h1>Our Courses</h1>
+        </div>
+    </section>
+
+    <!----Course---->
+    <section class="course">
+        <h1>Courses We Offer to three best Pharmacy course for student by Ashok College of Pharmacy</h1>
+        <p>We are offer </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>D PHARM</h3>
+                <p>Diploma in Pharmacy is a short-range course for aspirants who want to start their career in the field of pharmacy.D. Pharmacy course is the ideal choice for the student who wants a quick start in their pharmacy career. </p>
+            </div>
+            <div class="course-col">
+                <h3>B PHARM</h3>
+                <p>Bachelor of Pharmacy (B.Pharm) is an undergraduate degree course in the field of Pharmacy education. The students those are interested in the medical field can choose this course after the completion of class 12th. </p>
+            </div>
+            <div class="course-col">
+                <h3>M PHARM</h3>
+                <p> M Pharm is a post-graduate course that can be pursued by a graduate after the completion of an undergraduate degree in the pharmaceutical field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----Facilities---->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Facilities provide for Students by Ashok College of Pharmacy</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="Library">
+                <h3>Library</h3>
+                <p>Access to information is a vital key in developing individuals potentially. Ashok Institute provided a central library consisting more then 10,000 books and adequate number of journals.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="Play Ground">
+                <h3>Play Ground</h3>
+                <p>Our College has an excellent play ground for students with indoor and out door sports facilities. Our college is having very big playground for various outdoor games.
+       
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/bus.jpg" alt="Cafeteria">
+                <h3>Transport</h3>
+                <p>The college has a fleet of  5 bus buses to transport students from various part of the city and it's neighbourhood areas to the college and back home.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Ashok Gramin Shikshan Santha's<br>Ashok College of Pharmacy<br>Ashoknagar, Tal.Shrirampur, Dist.Ahmadnagar (Maharashtra)</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <title>Ashok college of Pharmacy</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo3.png.jpeg" alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="blog-text-box">
+            <h1>Our Certification for pharmacist</h1>
+        </div>
+    </section>
+
+    <!----Blog Page Content---->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate1.png" alt="Blog Image">
+                <h2>Our Certification for Pharmacists</h2>
+                <p>A professional certification is a formal recognition by a respected, recognized, and established professional organization that an individual has demonstrated a proficiency within, and comprehension of, a specified body of knowledge. Certifications are often confused with Certificates of Training which is a certificate of training completion and postnominal letters (abbreviations listed after the name) don’t apply.
+                    <br>
+                    <br>
+                    Many pharmacists who choose a specialty become certified in that area to display their expert knowledge.
+                    <br>
+                    <br>
+                    Licensed pharmacists are not required to be certified in a certain specialty by law. For example, it is not necessary to be a board certified oncology pharmacist (BCOP) to work in an oncology pharmacy department. However, certifications instill professionalism and make the pharmacist more attractive to prospective and current employers. Certified pharmacists may earn a salary differential over their non-certified colleagues. Indeed some pharmacies and other health care facilities are willing to pay certified pharmacists extra when they work within their specialty.
+                    <br>
+                    <br>
+                    There are currently two categories of certifications for pharmacists.
+                    <br>
+                    <br>
+                    1. Pharmacist certifications apply only to licensed pharmacists, therefore, other healthcare professionals are excluded from that category. For example, a licensed dentist is not eligible to apply for the American Board of Colon and Rectal Surgery board certification. Pharmacist licensure is a requirement in that category and credentials are always reflected by postnominal letters.
+                    <br>
+                    <br>
+                    2. Multidisciplinary certifications are open to more than one type of healthcare professional. For example, physicians, nurses and pharmacists can be certified by the American Academy of HIV Medicine. Moreover, multidisciplinary certifications don’t necessarily lead to credentials with postnominal letters. For example, a pharmacist certified in Pediatric Cardiovascular Life Support (PALS) cannot use postnominal letters. Licensure is usually not required in that category. For example, a Certified Professional in Healthcare Information and Management Systems (CPHIMS) is only required to have experience.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Write a comment..."></textarea>
+                        <button type="submit" class="hero-btn-red">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Clinical Pharmacist</span>
+                </div>
+                <div>
+                    <span>Pharmacologist</span>
+                </div>
+                <div>
+                    <span>Clinical Research Associate (CRA)</span>
+                </div>
+                <div>
+                    <span>Data Analyst</span>
+                </div>
+                <div>
+                    <span>Research scientist</span>
+                </div>
+                <div>
+                    <span>Junior clinical Research Associate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Ashok Gramin Shikshan Santha's<br>Ashok College of Pharmacy<br>Ashoknagar, Tal.Shrirampur, Dist.Ahmadnagar (Maharashtra)</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+       
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
